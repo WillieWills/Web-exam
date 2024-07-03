@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin:0;
+}
+body{
+  background:#001524; 
+}
+.head{
+  background:linear-gradient(to right,#ccdf92, #fde5d4, #82AF62);
+  -webkit-background-clip: text;
+  clip:text;
+  color: transparent ;
+  padding:10px;
+  margin :20px;
+  position:sticky;
+  padding: 0;
+  top:0;
+  
+}
+.logo{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.logo img{
+  height:auto;
+  
+}
+.text{
+  color:white;
+  margin:20px;
+ padding-bottom:20px; 
+ 
+ 
+}
+.btn button{
+  color:white;
+  background: linear-gradient(to right, green, lightgreen);
+  padding: 30px;
+  margin :10px;
+  border-color: darkred;
+  border-end-end-radius: 20%;
+  border-top-left-radius: 20px;
+  
+}
+.btn{
+  padding :20px;
+  
+}
+.famous{
+  margin-top:20px; 
+  color :green;
+}
+.border{
+  border:4px solid darkred;
+  margin: 15px;
+}
+.abt{
+  color: lightgreen;
+  padding :10%;
+}
